@@ -18,6 +18,16 @@ python process_papers.py papers_sample.csv --output papers.html
 
 The generated `papers.html` can be opened in a browser to navigate to each paper's extracted URL.
 
+## 中文使用教程
+1. 确保已安装 Python 3.8 及以上版本。
+2. 在命令行中进入包含 CSV 文件的目录，运行脚本（示例使用仓库提供的样例数据）：
+
+```bash
+python process_papers.py papers_sample.csv --output papers.html
+```
+
+3. 生成的 `papers.html` 会出现在当前目录，用浏览器打开即可在表格中查看所有论文标题；标题已插入提取到的首个网址，点击即可跳转。
+
 ## Input expectations
 The script looks for case-insensitive column names:
 - `title` for the paper title.
